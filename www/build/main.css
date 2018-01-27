@@ -24,6 +24,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
+  margin-top: 23px;
   right: 0px;
   z-index: 1270;
 }
@@ -36,17 +37,19 @@
   color: #fff;
   position: absolute;
   top: 0px;
-  width: 80%;
+  width: 87%;
   height: 55px;
+  padding: 5px;
   line-height: 2.5;
 }
 
 .header .btn-menu {
   display: block;
-  height: 55px;
   width: 55px;
-  padding: 15px;
+  height: 55px;
   margin: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .header .btn-menu ion-icon {
