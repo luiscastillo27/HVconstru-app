@@ -1,3 +1,15 @@
 page-equipo {
 
+  .card {
+      display: inline-block;
+      width: 46.5%;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 20px;
+  }
+
+  .card-columns{
+    card-columns: 2;
+  }
+
 }

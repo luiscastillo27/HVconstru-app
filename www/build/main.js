@@ -44172,7 +44172,9 @@ function TransitionController_tsickle_Closure_declarations() {
 /**
  * @private
  */
-function get(obj, path) {
+/**
+ * @private
+ */ function get(obj, path) {
     path = path.split('.');
     for (var i = 0; i < path.length; i++) {
         if (!obj) {
@@ -44234,6 +44236,7 @@ var cordovaWarn = function (pluginName, method) {
         console.warn('Native: tried accessing the ' + pluginName + ' plugin but Cordova is not available. Make sure to include cordova.js or run in a device/simulator');
     }
 };
+//# sourceMappingURL=util.js.map 
 //# sourceMappingURL=util.js.map
 
 /***/ }),
@@ -55622,7 +55625,7 @@ var ContactoPage = (function () {
 }());
 ContactoPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-contacto',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/contacto/contacto.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Contacto</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-slides pager> \n    <ion-slide>\n\n\n      <p>Puedes contactarnos en los diferentes medios o enviarnos un correo con el siguiente formulario:</p>\n      <form ion-grid fixed>\n\n        <ion-list ion-row>\n          <ion-item ion-col col-12 col-sm-6>\n            <ion-label floating>Tu nombre</ion-label>\n            <ion-input type="text" name="correo" clearInput="true"></ion-input>\n          </ion-item>\n\n          <ion-item ion-col col-12 col-sm-6>\n            <ion-label floating>Tu correo electrónico</ion-label>\n            <ion-input type="text" name="text" clearInput="true"></ion-input>\n          </ion-item>\n\n          <ion-item ion-col col-12 col-sm-6>\n            <ion-label floating>Tu asunto</ion-label>\n            <ion-input type="text" name="text" clearInput="true"></ion-input>\n          </ion-item>\n\n          <ion-item ion-col col-12 col-sm-6>\n            <ion-label floating>Tu mensaje</ion-label>\n            <ion-input type="text" name="text" clearInput="true"></ion-input>\n          </ion-item>\n\n        </ion-list>\n\n        <ion-fab right bottom>\n          <button ion-fab color="secondary">\n            <ion-icon name="add"></ion-icon>\n          </button>\n        </ion-fab>\n\n      </form>\n\n\n    </ion-slide>\n    <ion-slide>\n\n\n\n\n      <ion-card>\n\n          <img src="./assets/images/cover.jpg" alt="">\n\n          <ion-item>\n            <ion-icon name="wine" item-left large ></ion-icon>\n            <h2>Institute of Fine Cocktails</h2>\n            <p>14 S. Hop Avenue, Madison, WI 53703</p>\n          </ion-item>\n\n          <ion-item>\n            <ion-icon name="wine" item-left large ></ion-icon>\n            <h2>Institute of Fine Cocktails</h2>\n            <p>14 S. Hop Avenue, Madison, WI 53703</p>\n          </ion-item>\n\n          <ion-item>\n            <span item-left>18 min</span>\n            <span item-left>(2.6 mi)</span>\n          </ion-item>\n\n        </ion-card>\n\n\n\n\n\n    </ion-slide>\n\n  </ion-slides>\n\n\n\n\n\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/contacto/contacto.html"*/
+        selector: 'page-contacto',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/contacto/contacto.html"*/'<ion-content padding>\n\n  <div class="header">\n    <button class="btn-menu" ion-button clear menuToggle>\n       <ion-icon name="menu"></ion-icon>\n    </button>\n    <h1 color="white">Contacto</h1>\n  </div>\n\n\n\n      <ion-slides pager>\n\n          <ion-slide>\n            <p>Puedes contactarnos en los diferentes medios o enviarnos un correo con el siguiente formulario:</p>\n            <form ion-grid fixed>\n              <ion-list ion-row>\n                <ion-item ion-col col-12 col-sm-6>\n                  <ion-label floating>Tu nombre</ion-label>\n                  <ion-input type="text" name="correo" clearInput="true"></ion-input>\n                </ion-item>\n\n                <ion-item ion-col col-12 col-sm-6>\n                  <ion-label floating>Tu correo electrónico</ion-label>\n                  <ion-input type="text" name="text" clearInput="true"></ion-input>\n                </ion-item>\n\n                <ion-item ion-col col-12 col-sm-6>\n                  <ion-label floating>Tu asunto</ion-label>\n                  <ion-input type="text" name="text" clearInput="true"></ion-input>\n                </ion-item>\n\n                <ion-item ion-col col-12 col-sm-6>\n                  <ion-label floating>Tu mensaje</ion-label>\n                  <ion-input type="text" name="text" clearInput="true"></ion-input>\n                </ion-item>\n\n              </ion-list>\n\n              <ion-fab right bottom>\n                <button ion-fab color="secondary">\n                  <ion-icon name="add"></ion-icon>\n                </button>\n              </ion-fab>\n            </form>\n          </ion-slide>\n          <ion-slide>\n\n            <ion-card>\n                <img src="./assets/images/cover.jpg" alt="">\n                <ion-item>\n                  <ion-icon name="wine" item-left large ></ion-icon>\n                  <h2>Institute of Fine Cocktails</h2>\n                  <p>14 S. Hop Avenue, Madison, WI 53703</p>\n                </ion-item>\n                <ion-item>\n                  <ion-icon name="wine" item-left large ></ion-icon>\n                  <h2>Institute of Fine Cocktails</h2>\n                  <p>14 S. Hop Avenue, Madison, WI 53703</p>\n                </ion-item>\n                <ion-item>\n                  <span item-left>18 min</span>\n                  <span item-left>(2.6 mi)</span>\n                </ion-item>\n            </ion-card>\n\n          </ion-slide>\n\n      </ion-slides>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/contacto/contacto.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* AlertController */]])
 ], ContactoPage);
@@ -55655,7 +55658,7 @@ var EquipoPage = (function () {
 }());
 EquipoPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-equipo',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/equipo/equipo.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Equipo de trabajo</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-slides pager>\n    <ion-slide>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n    </ion-slide>\n    <ion-slide>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n    </ion-slide>\n    <ion-slide>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n    </ion-slide>\n  </ion-slides>\n\n\n\n\n\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/equipo/equipo.html"*/
+        selector: 'page-equipo',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/equipo/equipo.html"*/'<ion-content padding>\n\n  <div class="header">\n    <button class="btn-menu" ion-button clear menuToggle>\n       <ion-icon name="menu"></ion-icon>\n    </button>\n    <h1 color="white">Equipo de trabajo</h1>\n  </div>\n\n  <div class="contenedor">\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n    <div class="card">\n        <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n        <div class="card-body">\n          <h5 class="card-title">Card title</h5>\n          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n        </div>\n    </div>\n\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/equipo/equipo.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], EquipoPage);
@@ -55689,7 +55692,7 @@ var InicioPage = (function () {
 }());
 InicioPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-inicio',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/inicio/inicio.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Inicio</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/inicio/inicio.html"*/
+        selector: 'page-inicio',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/inicio/inicio.html"*/'<ion-content padding>\n\n  <div class="contenedor">\n\n      <div class="header">\n        <button class="btn-menu" ion-button clear menuToggle>\n           <ion-icon name="menu"></ion-icon>\n        </button>\n        <h1 color="white">Inicio</h1>\n      </div>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n    </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/inicio/inicio.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], InicioPage);
@@ -55723,7 +55726,7 @@ var NosotrosPage = (function () {
 }());
 NosotrosPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-nosotros',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/nosotros/nosotros.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Nosotros</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n    <ion-card>\n\n        <img src="./assets/images/cover.jpg" alt="">\n        <ion-fab right top>\n          <button ion-fab>\n            <ion-icon name="pin"></ion-icon>\n          </button>\n        </ion-fab>\n\n        <ion-item>\n          <ion-icon name="wine" item-left large ></ion-icon>\n          <h2>Institute of Fine Cocktails</h2>\n          <p>14 S. Hop Avenue, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="wine" item-left large ></ion-icon>\n          <h2>Institute of Fine Cocktails</h2>\n          <p>14 S. Hop Avenue, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n          <span item-left>18 min</span>\n          <span item-left>(2.6 mi)</span>\n        </ion-item>\n\n      </ion-card>\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/nosotros/nosotros.html"*/
+        selector: 'page-nosotros',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/nosotros/nosotros.html"*/'<ion-content padding>\n\n  <div class="contenedor">\n\n      <div class="header">\n        <button class="btn-menu" ion-button clear menuToggle>\n           <ion-icon name="menu"></ion-icon>\n        </button>\n        <h1 color="white">Nosotros</h1>\n      </div>\n\n    <ion-card>\n\n        <img src="./assets/images/cover.jpg" alt="">\n        <ion-fab right top>\n          <button ion-fab>\n            <ion-icon name="pin"></ion-icon>\n          </button>\n        </ion-fab>\n\n        <ion-item>\n          <ion-icon name="wine" item-left large ></ion-icon>\n          <h2>Institute of Fine Cocktails</h2>\n          <p>14 S. Hop Avenue, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n          <ion-icon name="wine" item-left large ></ion-icon>\n          <h2>Institute of Fine Cocktails</h2>\n          <p>14 S. Hop Avenue, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n          <span item-left>18 min</span>\n          <span item-left>(2.6 mi)</span>\n        </ion-item>\n\n      </ion-card>\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/nosotros/nosotros.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], NosotrosPage);
@@ -55756,7 +55759,7 @@ var PortafolioPage = (function () {
 }());
 PortafolioPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-portafolio',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/portafolio/portafolio.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Portafolio</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/portafolio/portafolio.html"*/
+        selector: 'page-portafolio',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/portafolio/portafolio.html"*/'<ion-content padding>\n\n\n  <div class="contenedor">\n\n      <div class="header">\n        <button class="btn-menu" ion-button clear menuToggle>\n           <ion-icon name="menu"></ion-icon>\n        </button>\n        <h1 color="white">Portafolio</h1>\n      </div>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <img src="./assets/images/cover.jpg" alt="">\n          <ion-card-content>\n              <ion-card-title>\n                Nine Inch Nails Live\n              </ion-card-title>\n              <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n          </ion-card-content>\n      </ion-card>\n\n  </div>\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/portafolio/portafolio.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], PortafolioPage);
@@ -55789,7 +55792,7 @@ var ServiciosPage = (function () {
 }());
 ServiciosPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-servicios',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/servicios/servicios.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Servicios</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n      <img src="./assets/images/cover.jpg" alt="">\n      <ion-card-content>\n          <ion-card-title>\n            Nine Inch Nails Live\n          </ion-card-title>\n          <p>The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.</p>\n      </ion-card-content>\n  </ion-card>\n\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/servicios/servicios.html"*/,
+        selector: 'page-servicios',template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/servicios/servicios.html"*/'<ion-content padding>\n\n  <div class="header">\n    <button class="btn-menu" ion-button clear menuToggle>\n       <ion-icon name="menu"></ion-icon>\n    </button>\n    <h1 color="white">Servicios</h1>\n  </div>\n\n  <div class="contenedor">\n\n    <div class="card-columns">\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, eos!</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minus optio aliquam, ea suscipit esse.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, eos!</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, eos!</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n\n        <div class="card">\n            <img class="card-img-top" src="./assets/images/cover.jpg" alt="Card image cap">\n            <div class="card-body">\n              <h5 class="card-title">Card title</h5>\n              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minus optio aliquam, ea suscipit esse.</p>\n              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>\n            </div>\n        </div>\n\n\n\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/pages/servicios/servicios.html"*/,
         providers: []
     }),
     __metadata("design:paramtypes", [])
@@ -55813,6 +55816,7 @@ ServiciosPage = __decorate([
 
 
 
+//# sourceMappingURL=index.js.map 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -55870,7 +55874,9 @@ function instanceAvailability(pluginObj, methodName) {
     return pluginObj._objectInstance && (!methodName || pluginObj._objectInstance[methodName] !== 'undefined');
 }
 function setIndex(args, opts, resolve, reject) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     // ignore resolve and reject in case sync
     if (opts.sync) {
         return args;
@@ -55934,7 +55940,9 @@ function setIndex(args, opts, resolve, reject) {
     return args;
 }
 function callCordovaPlugin(pluginObj, methodName, args, opts, resolve, reject) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     // Try to figure out where the success/error callbacks need to be bound
     // to our promise resolve/reject handlers.
     args = setIndex(args, opts, resolve, reject);
@@ -55948,7 +55956,9 @@ function callCordovaPlugin(pluginObj, methodName, args, opts, resolve, reject) {
     }
 }
 function wrapPromise(pluginObj, methodName, args, opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     var pluginResult, rej;
     var p = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["a" /* getPromise */])(function (resolve, reject) {
         pluginResult = callCordovaPlugin(pluginObj, methodName, args, opts, resolve, reject);
@@ -55964,7 +55974,9 @@ function wrapPromise(pluginObj, methodName, args, opts) {
     return p;
 }
 function wrapOtherPromise(pluginObj, methodName, args, opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["a" /* getPromise */])(function (resolve, reject) {
         var pluginResult = callCordovaPlugin(pluginObj, methodName, args, opts);
         if (pluginResult) {
@@ -55981,7 +55993,9 @@ function wrapOtherPromise(pluginObj, methodName, args, opts) {
     });
 }
 function wrapObservable(pluginObj, methodName, args, opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
         var pluginResult = callCordovaPlugin(pluginObj, methodName, args, opts, observer.next.bind(observer), observer.error.bind(observer));
         if (pluginResult && pluginResult.error) {
@@ -56005,7 +56019,9 @@ function wrapObservable(pluginObj, methodName, args, opts) {
     });
 }
 function callInstance(pluginObj, methodName, args, opts, resolve, reject) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     args = setIndex(args, opts, resolve, reject);
     if (instanceAvailability(pluginObj, methodName)) {
         return pluginObj._objectInstance[methodName].apply(pluginObj._objectInstance, args);
@@ -56019,7 +56035,9 @@ function callInstance(pluginObj, methodName, args, opts, resolve, reject) {
  * @returns {Observable}
  */
 function wrapEventObservable(event, element) {
-    if (element === void 0) { element = window; }
+    if (element === void 0) {
+        element = window;
+    }
     return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].fromEvent(element, event);
 }
 /**
@@ -56031,7 +56049,9 @@ function wrapEventObservable(event, element) {
  * @private
  */
 function overrideFunction(pluginObj, methodName, args, opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
         var availabilityCheck = checkAvailability(pluginObj, methodName);
         if (availabilityCheck === true) {
@@ -56049,7 +56069,9 @@ function overrideFunction(pluginObj, methodName, args, opts) {
  * @private
  */
 var wrap = function (pluginObj, methodName, opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function () {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
@@ -56077,7 +56099,9 @@ var wrap = function (pluginObj, methodName, opts) {
  * @private
  */
 function wrapInstance(pluginObj, methodName, opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function () {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
@@ -56129,6 +56153,7 @@ function wrapInstance(pluginObj, methodName, opts) {
         }
     };
 }
+//# sourceMappingURL=plugin.js.map 
 //# sourceMappingURL=plugin.js.map
 
 /***/ }),
@@ -56141,12 +56166,17 @@ function wrapInstance(pluginObj, methodName, opts) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreen; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function")
+        r = Reflect.decorate(decorators, target, key, desc);
+    else
+        for (var i = decorators.length - 1; i >= 0; i--)
+            if (d = decorators[i])
+                r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
+        return Reflect.metadata(k, v);
 };
 
 
@@ -56185,17 +56215,17 @@ var SplashScreen = (function () {
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], SplashScreen.prototype, "show", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], SplashScreen.prototype, "hide", null);
     SplashScreen = __decorate([
@@ -56204,11 +56234,12 @@ var SplashScreen = (function () {
             plugin: 'cordova-plugin-splashscreen',
             pluginRef: 'navigator.splashscreen',
             repo: 'https://github.com/apache/cordova-plugin-splashscreen'
-        }), 
+        }),
         __metadata('design:paramtypes', [])
     ], SplashScreen);
     return SplashScreen;
 }());
+//# sourceMappingURL=index.js.map 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -56221,12 +56252,17 @@ var SplashScreen = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatusBar; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function")
+        r = Reflect.decorate(decorators, target, key, desc);
+    else
+        for (var i = decorators.length - 1; i >= 0; i--)
+            if (d = decorators[i])
+                r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
+        return Reflect.metadata(k, v);
 };
 
 
@@ -56320,77 +56356,77 @@ var StatusBar = (function () {
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [Boolean]), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', [Boolean]),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "overlaysWebView", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "styleDefault", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "styleLightContent", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "styleBlackTranslucent", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "styleBlackOpaque", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String]), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', [String]),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "backgroundColorByName", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String]), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', [String]),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "backgroundColorByHexString", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "hide", null);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
             sync: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
+        }),
+        __metadata('design:type', Function),
+        __metadata('design:paramtypes', []),
         __metadata('design:returntype', void 0)
     ], StatusBar.prototype, "show", null);
     __decorate([
-        __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["c" /* CordovaProperty */], 
+        __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["c" /* CordovaProperty */],
         __metadata('design:type', Boolean)
     ], StatusBar.prototype, "isVisible", void 0);
     StatusBar = __decorate([
@@ -56400,11 +56436,12 @@ var StatusBar = (function () {
             pluginRef: 'StatusBar',
             repo: 'https://github.com/apache/cordova-plugin-statusbar',
             platforms: ['iOS', 'Android', 'Windows Phone 8', 'Windows 8', 'Windows 10']
-        }), 
+        }),
         __metadata('design:paramtypes', [])
     ], StatusBar);
     return StatusBar;
 }());
+//# sourceMappingURL=index.js.map 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -74198,27 +74235,24 @@ exports.tryCatch = tryCatch;
 /***/ (function(module, exports) {
 
 var g;
-
 // This works in non-strict mode
-g = (function() {
-	return this;
+g = (function () {
+    return this;
 })();
-
 try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
+    // This works if eval is allowed (see CSP)
+    g = g || Function("return this")() || (1, eval)("this");
 }
-
+catch (e) {
+    // This works if the window reference is available
+    if (typeof window === "object")
+        g = window;
+}
 // g can still be undefined, but nothing to do about it...
 // We return undefined, instead of nothing here, so it's
 // easier to handle this case. if(!global) { ...}
-
 module.exports = g;
-
+//# sourceMappingURL=global.js.map
 
 /***/ }),
 /* 197 */
@@ -74564,7 +74598,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/app/app.html"*/'\n<ion-menu [content]="NAV">\n\n    <ion-header>\n        <ion-toolbar color="blueCover">\n            <img src="./assets/images/cover.jpg" alt="">\n        </ion-toolbar>\n    </ion-header>\n\n\n    <ion-content>\n        <ion-list>\n            <button ion-item *ngFor="let page of pages" (click)="goToPage(page.component)" menuClose>\n                <ion-icon item-left name="{{ page.icon }}"></ion-icon>\n                {{ page.titulo }}\n            </button>\n        </ion-list>\n    </ion-content>\n\n</ion-menu>\n\n<ion-nav #NAV [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/app/app.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/app/app.html"*/'\n<ion-menu [content]="NAV">\n\n    <ion-content>\n\n      <div class="header-menu">\n        <img src="./assets/images/cover.jpg" alt="">\n      </div>\n\n\n        <ion-list>\n            <button class="item-menu" ion-item *ngFor="let page of pages" (click)="goToPage(page.component)" menuClose>\n                <ion-icon item-left name="{{ page.icon }}"></ion-icon>\n                {{ page.titulo }}\n            </button>\n        </ion-list>\n\n    </ion-content>\n\n\n</ion-menu>\n\n<ion-nav #NAV [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/luiscastillo/Apps/hibridas/ionic/HVconstru-app/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */],
         __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
@@ -102872,6 +102906,7 @@ function checkReady() {
         }
     }, DEVICE_READY_TIMEOUT);
 }
+//# sourceMappingURL=bootstrap.js.map 
 //# sourceMappingURL=bootstrap.js.map
 
 /***/ }),
@@ -102902,7 +102937,9 @@ function checkReady() {
  * @private
  */
 function InstanceCheck(opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function (pluginObj, methodName, descriptor) {
         return {
             value: function () {
@@ -102931,7 +102968,9 @@ function InstanceCheck(opts) {
  * @private
  */
 function CordovaCheck(opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function (pluginObj, methodName, descriptor) {
         return {
             value: function () {
@@ -103015,7 +103054,9 @@ function Plugin(config) {
  * and the required plugin are installed.
  */
 function Cordova(opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function (target, methodName, descriptor) {
         return {
             value: function () {
@@ -103034,7 +103075,9 @@ function Cordova(opts) {
  * Wrap an instance method
  */
 function CordovaInstance(opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function (target, methodName) {
         return {
             value: function () {
@@ -103095,7 +103138,9 @@ function InstanceProperty(target, key) {
  * and the required plugin are installed.
  */
 function CordovaFunctionOverride(opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     return function (target, methodName, descriptor) {
         return {
             value: function () {
@@ -103115,7 +103160,9 @@ function CordovaFunctionOverride(opts) {
  *
  */
 function CordovaFiniteObservable(opts) {
-    if (opts === void 0) { opts = {}; }
+    if (opts === void 0) {
+        opts = {};
+    }
     if (opts.observable === false) {
         throw new Error('CordovaFiniteObservable decorator can only be used on methods that returns observable. Please provide correct option.');
     }
@@ -103147,6 +103194,7 @@ function CordovaFiniteObservable(opts) {
         };
     };
 }
+//# sourceMappingURL=decorators.js.map 
 //# sourceMappingURL=decorators.js.map
 
 /***/ }),

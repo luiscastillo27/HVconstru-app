@@ -1,21 +1,22 @@
 
 <ion-menu [content]="NAV">
 
-    <ion-header>
-        <ion-toolbar color="blueCover">
-            <img src="./assets/images/cover.jpg" alt="">
-        </ion-toolbar>
-    </ion-header>
-
-
     <ion-content>
+
+      <div class="header-menu">
+        <img src="./assets/images/cover.jpg" alt="">
+      </div>
+
+
         <ion-list>
-            <button ion-item *ngFor="let page of pages" (click)="goToPage(page.component)" menuClose>
+            <button class="item-menu" ion-item *ngFor="let page of pages" (click)="goToPage(page.component)" menuClose>
                 <ion-icon item-left name="{{ page.icon }}"></ion-icon>
                 {{ page.titulo }}
             </button>
         </ion-list>
+
     </ion-content>
+
 
 </ion-menu>
 
